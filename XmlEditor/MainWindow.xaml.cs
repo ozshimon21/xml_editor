@@ -15,6 +15,9 @@ namespace XmlEditor
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
+            
+            
+            
         }
     }
 }
