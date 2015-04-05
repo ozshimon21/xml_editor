@@ -13,11 +13,13 @@ namespace XmlEditor
         /// </summary>
         public MainWindow()
         {
+
+
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
             
             
-            
+         
         }
     }
 }
